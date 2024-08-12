@@ -1,4 +1,91 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    gap:1rem;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:red;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.search input {
+    padding: 0.3rem 0.5rem;
+}
+
+img.profile {
+    width: 50px;
+    border-radius: 100px;
+}
+
+
+/* main */
+main {
+    width: 94%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 1rem;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+}
+
+.user-ratings {
+    display: inline-block;
+}
+.user-rating i {
+    color: red;
+}
+
+.movie-description {
+    width: 60%;
+    line-height: 130%;
+}
+.movie-details {
+    padding-left: 0;
+}
+
+.movie-details li {
+    list-style-type: none;
+    margin-bottom: .4rem;
+}
+
+.movie-details span {
+    font-weight: bold;
+    color: red;
+}
+
+.btn {
+    border-radius: .5rem;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: .6rem 1rem;
 }
