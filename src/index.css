@@ -13,7 +13,7 @@ header {
 }
 
 img.logo {
-    height: 60px;
+    height: 3.5rem;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 img.profile {
-    width: 50px;
+    width: 3rem;
     border-radius: 100px;
 }
 
@@ -68,6 +68,7 @@ main {
     width: 60%;
     line-height: 130%;
 }
+
 .movie-details {
     padding-left: 0;
 }
