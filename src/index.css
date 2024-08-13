@@ -205,3 +205,49 @@ footer > div > p {
     max-width: 100px;
 }
 
+
+@media screen and (max-width: 992px){
+    
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 576px){
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        padding: 0 .5rem
+    }
+    header nav {
+        margin: .5rem;
+        order: 1;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    section {
+        padding: 0 .5rem
+    }
+
+    .suggestion-title h2 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: .5rem;
+        justify-content: flex-start;
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+
