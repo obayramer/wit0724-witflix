@@ -207,7 +207,17 @@ footer > div > p {
 
 
 @media screen and (max-width: 992px){
-    
+    header {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        padding: 0 .5rem
+    }
+    header nav {
+        margin: .5rem;
+        order: 1;
+        flex-grow: 1;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -248,6 +258,12 @@ footer > div > p {
     }
 }
 
+
+@media screen and (max-width: 500px){
+    header {
+        flex-direction: column;
+    }
+}
 
 
 
