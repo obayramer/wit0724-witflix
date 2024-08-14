@@ -39,9 +39,9 @@ nav a:hover {
 .search input {
     padding: 0.3rem 1.8rem 0.3rem 0.5rem;
     background-image: url("./assets/img/pngwing.com.png");
-    background-size: contain;
+    background-size: 10%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 98% center;
 }
 
 
